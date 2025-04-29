@@ -1,0 +1,13 @@
+# requirements.txt
+flask==3.0.0
+google-generativeai==0.3.0
+groq==0.3.0
+llama-index==0.9.48
+python-docx==1.1.0
+pypdf==3.17.1
+pandas==2.1.4
+openpyxl==3.1.2
+python-dotenv==1.0.0
+werkzeug==3.0.1
+sentence-transformers==2.2.2
+torch==2.1.0
