@@ -6,7 +6,7 @@ A Flask-based web application that allows users to upload documents (PDF, Word, 
 
 ![Question Answering Interface](https://github.com/AdarshXKumAR/Document-AI-ChatBot/blob/main/demo2.png)
 
-## Features
+## ✨ Features
 
 - **Document Upload**: Support for PDF, Word (.docx), and Excel (.xlsx/.xls) files
 - **Multiple LLM Support**: Choose between Google Gemini and Groq for responses
@@ -14,7 +14,7 @@ A Flask-based web application that allows users to upload documents (PDF, Word, 
 - **Interactive UI**: User-friendly interface with drag-and-drop functionality
 - **Responsive Design**: Works well on both desktop and mobile devices
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 - **Backend**: Flask (Python)
 - **Frontend**: HTML, JavaScript, Tailwind CSS
@@ -28,7 +28,7 @@ A Flask-based web application that allows users to upload documents (PDF, Word, 
   - LlamaIndex for document indexing
   - HuggingFace embeddings
 
-## Setup Instructions
+## 🚀 Setup Instructions
 
 ### Prerequisites
 
@@ -72,7 +72,7 @@ A Flask-based web application that allows users to upload documents (PDF, Word, 
    http://127.0.0.1:5000
    ```
 
-## Usage
+## 🪴 Usage
 
 1. **Upload a Document**: 
    - Click the upload area or drag and drop a supported file (PDF, Word, Excel)
@@ -83,7 +83,7 @@ A Flask-based web application that allows users to upload documents (PDF, Word, 
    - Type your question in the text area
    - Click "Ask Question" and wait for the response
 
-## Project Structure
+## 📚 Project Structure
 
 ```
 document-qa-chatbot/
@@ -95,7 +95,7 @@ document-qa-chatbot/
 └── .env.local          # Environment variables (API keys)
 ```
 
-## Requirements
+## 📋 Requirements
 
 See `requirements.txt` for the full list of dependencies. Main packages include:
 
@@ -113,13 +113,13 @@ pandas
 openpyxl
 ```
 
-## Limitations
+## ⚡ Limitations
 
 - Maximum file size is limited to 16MB
 - Processing large documents may take time
 - Response quality depends on the selected LLM and document content clarity
 
-## Future Improvements
+## 🔮 Future Improvements
 
 - Add authentication to secure document uploads
 - Implement document history for users
@@ -127,11 +127,11 @@ openpyxl
 - Improve response formatting with markdown support
 - Add chat history functionality
 
-## License
+## 📝 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Acknowledgements
+## 🙏 Acknowledgements
 
 - [Google Generative AI](https://ai.google.dev/)
 - [Groq](https://groq.com/)
